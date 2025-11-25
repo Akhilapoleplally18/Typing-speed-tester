@@ -17,9 +17,6 @@ A modern, responsive web application for measuring typing speed and accuracy. Th
 --Type the shown text as quickly and accurately as possible.
 --Results update live and the test ends after 60 seconds or upon completion.
 
-**Demo**
-If deployed on GitHub Pages, add your live link here:
-https://your-username.github.io/typing-speed-tester/
 
 **Technologies Used**
 --HTML, CSS, JavaScript (Vanilla)
@@ -29,6 +26,4 @@ https://your-username.github.io/typing-speed-tester/
 **Getting Started**
 Clone or download the repository to your local machine:
 
-**bash**
-git clone https://github.com/your-username/typing-speed-tester.git
-Then open index.html in your browser to use the app.
+
