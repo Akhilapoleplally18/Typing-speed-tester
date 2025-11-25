@@ -21,12 +21,9 @@ A modern, responsive web application for measuring typing speed and accuracy. Th
 **Technologies Used**
 --HTML, CSS, JavaScript (Vanilla)
 --Google Fonts (Montserrat)
-
-You can view my web application:
-https://6925957d3b0fca7ed80e95af--astounding-frangollo-d1ae47.netlify.app/
 --Font Awesome (icons)
 
-**Getting Started**
-Clone or download the repository to your local machine:
+**You can view my web application:**
+https://6925957d3b0fca7ed80e95af--astounding-frangollo-d1ae47.netlify.app/
 
 
