@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Typing Speed Tester</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="split-container">
+    <section class="card alphabets-section">
+      <h2>Alphabets Typing Test</h2>
+      <p id="alphaText">Click "Start Test" for alphabets.</p>
+      <input type="text" id="alphaInput" placeholder="Type alphabets here..." disabled />
+      <div class="stats">
+        <span><i class="fas fa-stopwatch"></i> Time: <span id="alphaTime">0</span> s</span>
+        <span><i class="fas fa-keyboard"></i> WPM: <span id="alphaWpm">0</span></span>
+        <span><i class="fas fa-star"></i> Accuracy: <span id="alphaAccuracy">0</span>%</span>
+      </div>
+      <button id="alphaStartBtn">Start Test</button>
+    </section>
+    <section class="card paragraphs-section">
+      <h2>Paragraphs Typing Test</h2>
+      <label for="level"><strong>Level:</strong></label>
+      <select id="level">
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <p id="paraText">Click "Start Test" for paragraphs.</p>
+      <input type="text" id="paraInput" placeholder="Type paragraph here..." disabled />
+      <div class="stats">
+        <span><i class="fas fa-stopwatch"></i> Time: <span id="paraTime">0</span> s</span>
+        <span><i class="fas fa-keyboard"></i> WPM: <span id="paraWpm">0</span></span>
+        <span><i class="fas fa-star"></i> Accuracy: <span id="paraAccuracy">0</span>%</span>
+      </div>
+      <button id="paraStartBtn">Start Test</button>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

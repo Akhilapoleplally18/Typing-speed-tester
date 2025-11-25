@@ -1,0 +1,116 @@
+body {
+  min-height: 100vh;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #c471f5 0%, #fa71cd 100%);
+  background-size: 200% 200%;
+  animation: bgmove 8s ease-in-out infinite alternate;
+}
+
+@keyframes bgmove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.split-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 48px 0;
+}
+
+.card {
+  background: rgba(255,255,255,0.92);
+  box-shadow: 0 8px 24px rgba(172,80,241,0.14), 0 2px 8px #c471f5 inset;
+  border-radius: 18px;
+  padding: 32px 28px;
+  max-width: 390px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin: 10px 0;
+}
+
+.card h2 {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #c471f5;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.card select, .card input[type="text"] {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #1d36f4bd;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.card input[disabled] {
+  background: #eee;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 15px;
+  color: #8661de;
+  margin-bottom: 13px;
+}
+
+.stats span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 11px;
+  font-size: 1.09rem;
+  border-radius: 8px;
+  border: none;
+  background: #0d21b3;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.22s;
+  box-shadow: 0 2px 6px rgba(172,80,241,0.11);
+}
+
+button:hover {
+  background: #6b6de0;
+}
+
+@media screen and (max-width: 900px) {
+  .split-container {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  .card {
+    padding: 21px 11px;
+    max-width: 97vw;
+  }
+}
+
+label {
+  color: #3c44eb;
+  font-size: 0.98em;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+
+
